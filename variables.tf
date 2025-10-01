@@ -22,7 +22,7 @@ variable "team_name" {
   default = "DCS Automation"
 }
 variable "team_contact" {
-  default = "#list-assist-qa-builds"
+  default = "#dcs-automation"
 }
 
 ## KV Details
