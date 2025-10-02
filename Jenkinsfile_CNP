@@ -8,3 +8,4 @@ def branchesToSync = ['demo', 'perftest', 'ithc']
 
 withInfraPipeline(product, component) {
  syncBranchesWithMaster(branchesToSync)
+}
