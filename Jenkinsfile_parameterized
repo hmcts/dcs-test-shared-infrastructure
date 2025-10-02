@@ -1,0 +1,10 @@
+#!groovy
+//noinspection GroovyUnusedAssignment
+@Library("Infrastructure") _
+
+def product = "dcs-automation"
+def component = "bootstrap"
+
+withParameterizedInfraPipeline(product, "sbox", "sbox", component) {
+
+}
