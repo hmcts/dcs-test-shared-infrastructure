@@ -1,5 +1,5 @@
 #!groovy
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-35133/master")
 
 def product = "dcs-automation"
 def component = "bootstrap"
